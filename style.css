@@ -1,0 +1,76 @@
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+}
+
+.navbar-brand img {
+    max-width: 120px;
+    height: auto;
+}
+
+.nav-link {
+    color: #333333;
+    font-weight: 600;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* Hamburger Icon Animation */
+.navbar-toggler .fas {
+    font-size: 24px;
+    color: #333333;
+    transition: transform 0.3s ease;
+}
+
+.navbar-toggler[aria-expanded="true"] .fas {
+    transform: rotate(90deg);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .nav-item {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        max-width: 100px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        padding: 0.5rem 1rem;
+    }
+
+    .nav-link {
+        margin: 5px 0;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+    }
+}

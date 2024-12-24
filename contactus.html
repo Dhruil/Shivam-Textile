@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+
+    <!-- Custom CSS -->
+    <style>
+
+        .contact-section {
+    position: relative;
+    height: 50vh;
+    background: url('https://tse3.mm.bing.net/th?id=OIP.PGaL5kR0EetlTY7UwkLA4AHaEK&pid=Api&P=0&h=220') no-repeat  center/cover ;
+}
+
+        .contact-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+            font-size: 3rem;
+            font-weight: bold;
+            text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+        }
+
+        .section-heading {
+            font-size: 2rem;
+            font-weight: bold;
+            text-decoration: underline;
+            margin-bottom: 1rem;
+        }
+
+        .office-card {
+            border: none;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .office-card:hover {
+            transform: scale(1.02);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .view-map {
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .view-map:hover {
+            background-color: #5a6268;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .map-container {
+            height: 400px;
+        }
+
+        .contact-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .contact-info i {
+            font-size: 1.2rem;
+            color: #007bff;
+            margin-right: 10px;
+        }
+        .footer{
+            height: 100%;
+        }
+        .footer iframe{
+            height: 17.3rem;
+        }
+
+    </style>
+     <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+    <nav class="main-nav py-3 bg-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <a href="index.html" class="col-md-3">
+                    <div >
+                        <img src="images\logo.png" alt="Shivam Stone Logo" class="image-auto w-50">
+                    </div>
+                </a>
+                
+                <div class="col-md-9">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-dark dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="gujarat-granite.html">Gujarat Granite</a></li>
+                                <li><a class="dropdown-item" href="rajasthan-granite.html">Rajasthan Granite</a></li>
+                                <li><a class="dropdown-item" href="south-granite.html">South Granite</a></li>
+                                <li><a class="dropdown-item" href="cnc-cutting.html">CNC Cutting</a></li>
+                                <li><a class="dropdown-item" href="framing-leather.html">Framing & Leather</a></li>
+                                <li><a class="dropdown-item" href="sand-stone.html">Sand Stone</a></li>
+                                <li><a class="dropdown-item" href="lappato.html">Lappato Granite</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </nav>
+    <div class="contact-section">
+        <div class="contact-text">
+            Contact Us
+        </div>
+    </div>
+
+    <!-- Offices and Map Section -->
+    <div class="container py-5">
+        <h2 class="section-heading text-center">Our Offices</h2>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="row gy-4">
+                    <!-- Main Office -->
+                    <div class="col-md-12">
+                        <div class="card office-card p-3">
+                            <h5 class="font-bold pb-2">Main Office - Palanpur</h5>
+                            <div class="contact-info ">
+                                <i class="fas fa-map-marker-alt text-black "></i>
+                                <p >Survey No. 139, Lunava, Varvadiya Road, Abu Highway, Palanpur - 385001 (B.K.)</p>
+                            </div>
+                            <div class="contact-info">
+                                <i class="fas fa-phone text-black"></i>
+                                <p >+91 9722809088  / 9426445921</p>
+                            </div>
+                            <div class="contact-info">
+                                <i class="fas fa-envelope text-black"></i>
+                                <p>shivamstone16@gmail.com</p>
+                            </div>
+                            <button class="btn view-map" data-lat="24.176655" data-lng="72.437302">
+                                View on Map
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Office 2 -->
+                    <div class="col-md-12">
+                        <div class="card office-card p-3">
+                            <h5 class="font-bold pb-2">Gandhinagar Office</h5>
+                            <div class="contact-info">
+                                <i class="fas fa-map-marker-alt text-black "></i>
+                                <p>Himmatnagar Highway, Mahodra Patiya, Chiloda - 382355, Gandhinagar</p>
+                            </div>
+                            <div class="contact-info">
+                                <i class="fas fa-phone text-black"></i>
+                                <p>+91 9106983560 / 7600901458 / 8758343817 / 79903 68274</p>
+                            </div>
+                            <button class="btn view-map" data-lat="23.215635" data-lng="72.636941">
+                                View on Map
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Office 3 -->
+                    <div class="col-md-12">
+                        <div class="card office-card p-3">
+                            <h5 class="font-bold pb-2">Bhilwara Office</h5>
+                            <div class="contact-info">
+                                <i class="fas fa-map-marker-alt text-black"></i>
+                                <p>M.L. Plot No. 76/2019, Village-Phakoliya, Tehsil-Kareda, Bhilwara - 311804</p>
+                            </div>
+                            <div class="contact-info">
+                                <i class="fas fa-phone text-black"></i>
+                                <p>+91 9722809088 / 942751304</p>
+                            </div>
+                            <button class="btn view-map" data-lat="25.320882" data-lng="74.635122">
+                                View on Map
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Map Section -->
+            <div class="col-lg-6">
+                <div class="map-container">
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h4 class="mb-4">About Shivam Stone</h4>
+                    <p>Premium quality stone products exported worldwide. We specialize in various types of granite and custom stone solutions.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h4 class="mb-4">Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <!-- <li><a href="index.html" class="text-white">Products</a></li> -->
+                        <li><a href="about.html" class="text-white">About Us</a></li>
+                        <li><a href="contactus.html" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h4 class="mb-4">Contact Info</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-phone me-2"></i> +91 9722809088</li>
+                        <li class="mb-2"><i class="fas fa-envelope me-2"></i> shivamstone16@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt me-2"></i> Khemana Patiya, Nr.Toll Plaza, Abu Highway, Palanpur - 385001 (B.K.)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script 
+    src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+    <!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom JS -->
+    <script>
+        // Handle map updates
+        document.querySelectorAll('.view-map').forEach(button => {
+            button.addEventListener('click', function () {
+                const lat = this.getAttribute('data-lat');
+                const lng = this.getAttribute('data-lng');
+                const map = document.getElementById('map');
+                map.src = `https://www.google.com/maps?q=${lat},${lng}&hl=es;z=14&output=embed`;
+            });
+        });
+    </script>
+</body>
+
+</html>

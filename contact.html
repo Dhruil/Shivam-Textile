@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam Stone - Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom Responsive Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .navbar-brand img {
+            max-width: 150px;
+            height: auto;
+        }
+
+        .hero-section {
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        .hero-section h1 {
+            color: #333;
+            font-weight: bold;
+        }
+
+        .office-card {
+            margin-bottom: 1rem;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .office-card:hover {
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transform: translateY(-5px);
+        }
+
+        .contact-info {
+            margin-bottom: 0.5rem;
+            color: #666;
+        }
+
+        .map-container {
+            width: 100%;
+            height: 400px;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+        }
+
+        .map-placeholder {
+            text-align: center;
+            color: #888;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .navbar-nav {
+                text-align: center;
+            }
+
+            .office-card {
+                margin-bottom: 1rem;
+            }
+
+            .map-container {
+                height: 250px;
+                margin-top: 1rem;
+            }
+        }
+
+        /* Dropdown styling for Products */
+        .dropdown-menu {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="Shivam Stone Logo" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                            <li><a class="dropdown-item" href="gujarat-granite.html">Gujarat Granite</a></li>
+                            <li><a class="dropdown-item" href="rajasthan-granite.html">Rajasthan Granite</a></li>
+                            <li><a class="dropdown-item" href="south-granite.html">South Granite</a></li>
+                            <li><a class="dropdown-item" href="cnc-cutting.html">CNC Cutting</a></li>
+                            <li><a class="dropdown-item" href="framing-leather.html">Framing & Leather</a></li>
+                            <li><a class="dropdown-item" href="sand-stone.html">Sand Stone</a></li>
+                            <li><a class="dropdown-item" href="lappato.html">Lappato Granite</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero-section">
+        <div class="container">
+            <h1>Contact Us</h1>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <h2 class="text-center mb-4">Our Offices</h2>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-md-12 mb-3">
+                        <div class="card office-card p-3">
+                            <h5 class="card-title">Main Office - Palanpur</h5>
+                            <div class="contact-info">
+                                <p class="mb-1">Survey No. 139, Lunava, Varvadiya Road, Abu Highway, Palanpur - 385001 (B.K.)</p>
+                                <p class="mb-1">+91 9722809088 / 9426445921</p>
+                                <p class="mb-0">shivamstone16@gmail.com</p>
+                            </div>
+                            <a href="#" class="btn btn-outline-secondary mt-2">View on Map</a>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <div class="card office-card p-3">
+                            <h5 class="card-title">Gandhinagar Office</h5>
+                            <div class="contact-info">
+                                <p class="mb-1">Himmatnagar Highway, Mahodra Patiya, Chiloda - 382355, Gandhinagar</p>
+                                <p class="mb-0">+91 9106983560 / 7600901458 / 8758343817 / 79903 68274</p>
+                            </div>
+                            <a href="#" class="btn btn-outline-secondary mt-2">View on Map</a>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <div class="card office-card p-3">
+                            <h5 class="card-title">Bhilwara Office</h5>
+                            <div class="contact-info">
+                                <p class="mb-1">M.L. Plot No. 76/2019, Village-Phakoliya, Tehsil-Kareda, Bhilwara - 311804</p>
+                                <p class="mb-0">+91 9722809088 / 942751304</p>
+                            </div>
+                            <a href="#" class="btn btn-outline-secondary mt-2">View on Map</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <h4>Location Map</h4>
+                        <p>Map will be embedded here</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h4 class="mb-4">About Shivam Stone</h4>
+                    <p>Premium quality stone products exported worldwide. We specialize in various types of granite and custom stone solutions.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h4 class="mb-4">Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <!-- <li><a href="index.html" class="text-white">Products</a></li> -->
+                        <li><a href="about.html" class="text-white">About Us</a></li>
+                        <li><a href="contactus.html" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h4 class="mb-4">Contact Info</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-phone me-2"></i> +91 9722809088</li>
+                        <li class="mb-2"><i class="fas fa-envelope me-2"></i> shivamstone16@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt me-2"></i> Khemana Patiya, Nr.Toll Plaza, Abu Highway, Palanpur - 385001 (B.K.)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+     <!-- Custom JS -->
+     <script>
+        // Handle map updates
+        document.querySelectorAll('.view-map').forEach(button => {
+            button.addEventListener('click', function () {
+                const lat = this.getAttribute('data-lat');
+                const lng = this.getAttribute('data-lng');
+                const map = document.getElementById('map');
+                map.src = `https://www.google.com/maps?q=${lat},${lng}&hl=es;z=14&output=embed`;
+            });
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
